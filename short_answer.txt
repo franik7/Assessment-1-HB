@@ -1,0 +1,78 @@
+1) What does the `rm` command in the terminal do?
+
+Your answer:
+
+It removes a file or a a folder.
+
+------------------
+2) What terminal command would you use to list all the files and folder in the 
+   current directory?
+
+Your answer:
+
+ls
+
+------------------
+3) Explain the difference between these two commands in the terminal:
+   
+   $ cd Users
+   $ cd /Users
+
+Your answer:
+
+The first command lets you go in the directory Users from the directory you're currently in (if Users directory exists in the directory you're currently in). The second command changes the path to the Users directory within the root directory of the computer (if Users directory exists within the root directory of the computer).
+
+------------------
+4) Describe what git is and what it is used for.
+
+Your answer:
+
+git is a version control system. It is used to track versions of your repositories as they change over time and lets people collaborate on their work easier. 
+
+------------------
+5) Describe what GitHub is and what it is used for.
+
+Your answer:
+
+Github is a "code storage" platfrom that lets people collaborate on/store their code. 
+
+------------------
+6) Which of these commands sets up a new git repository?
+    a) git clone 
+    b) git pull
+    c) git init
+    d) git status
+
+Your answer:
+git init
+
+------------------
+7) You want to check that you have properly added all the files you want to be
+   tracked in git BEFORE you make a commit. Which command will do this?
+     a) git push
+     b) git commit
+     c) git status
+     d) git remote
+
+Your answer:
+git status
+
+------------------
+8) What is the difference between `git add` and `git commit`?
+
+Your answer:
+git add adds the files to be staged (tells git to start tracking the files). git commit takes the staged changes and takes a snapshot of them (creates a snapshot of a current version of a code that is possible to retrieve later)
+
+
+------------------
+9) What does the `git push` command do?
+
+Your answer:
+pushes the code to Github
+
+------------------
+10) When would you use the `git clone` command?
+
+Your answer:
+when you want to download someone's elses code from Github on your local machine from URL
+
